@@ -3,11 +3,12 @@ import type { SVGProps } from "react";
 const SvgShieldNone = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
     fill="currentColor"
     stroke="currentColor"
+    viewBox="0 0 20 20"
     width="1em"
     height="1em"
+    strokeWidth={0.2}
     {...props}
   >
     <path d="M12.506 3.973a15 15 0 0 1-1.059-.775l-.354-.283a1.75 1.75 0 0 0-2.186 0l-.317.253a15.3 15.3 0 0 1-3.217 1.976l-.847.384a1.71 1.71 0 0 0-1.01 1.628c.083 1.865.507 3.422 1.096 4.71l1.146-1.145c-.401-1.025-.681-2.228-.744-3.632-.003-.068.037-.152.133-.195l.846-.385a16.8 16.8 0 0 0 3.534-2.17l.317-.253a.25.25 0 0 1 .312 0l.354.283q.447.357.916.683z" />

@@ -3,11 +3,12 @@ import type { SVGProps } from "react";
 const SvgReceiptEuro = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
     fill="currentColor"
     stroke="currentColor"
+    viewBox="0 0 20 20"
     width="1em"
     height="1em"
+    strokeWidth={0.2}
     {...props}
   >
     <path d="M10.26 7.393c-.248.15-.579.534-.707 1.357h1.697a.75.75 0 0 1 0 1.5H9.553c.128.823.46 1.208.708 1.357.309.185.684.137.959-.137a.75.75 0 1 1 1.06 1.06c-.725.726-1.85.928-2.79.363-.788-.472-1.304-1.385-1.449-2.643H7.75a.75.75 0 1 1 0-1.5h.291c.145-1.258.661-2.171 1.448-2.643.941-.565 2.066-.363 2.791.363a.75.75 0 0 1-1.06 1.06c-.275-.274-.65-.322-.96-.137" />

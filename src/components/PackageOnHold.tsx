@@ -3,11 +3,12 @@ import type { SVGProps } from "react";
 const SvgPackageOnHold = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
     fill="currentColor"
     stroke="currentColor"
+    viewBox="0 0 20 20"
     width="1em"
     height="1em"
+    strokeWidth={0.2}
     {...props}
   >
     <path
@@ -18,7 +19,7 @@ const SvgPackageOnHold = (props: SVGProps<SVGSVGElement>) => (
       fillRule="evenodd"
       d="M7 9a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1zm.5 3.5v-2h3v2z"
     />
-    <path d="M16.75 12.5a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-1.5 0v-4a.75.75 0 0 1 .75-.75M14.5 13.25a.75.75 0 0 0-1.5 0v4a.75.75 0 0 0 1.5 0z" />
+    <path d="M16.75 12.5a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-1.5 0v-4a.75.75 0 0 1 .75-.75m-2.25.75a.75.75 0 0 0-1.5 0v4a.75.75 0 0 0 1.5 0z" />
   </svg>
 );
 export default SvgPackageOnHold;

@@ -1,7 +1,7 @@
 {
   "name": "@netist/icons",
   "private": false,
-  "version": "0.0.11",
+  "version": "0.0.13",
   "type": "module",
   "files": [
     "dist"
@@ -18,9 +18,12 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build:package": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "build:icons": "bun run build:svgo && bun run build:svgr",
+    "build:svgo": "bunx svgo -f ./src/icons -o ./src/optimized-icons --config=./svgo.config.cjs",
+    "build:svgr": "bunx @svgr/cli --typescript --out-dir ./src/components ./src/optimized-icons --config-file ./svgr.config.cjs"
   },
   "peerDependencies": {
     "react": "^18.2.0",

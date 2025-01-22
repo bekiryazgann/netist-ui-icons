@@ -3,22 +3,21 @@ import type { SVGProps } from "react";
 const SvgZapCircle = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
     width="1em"
     height="1em"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
+    strokeWidth={0.2}
     {...props}
   >
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
       d="m12 5.5-4.638 6.747c-.28.406-.42.609-.41.778a.5.5 0 0 0 .195.373c.135.102.38.102.874.102H12v5l4.638-6.747c.28-.406.42-.609.41-.778a.5.5 0 0 0-.195-.373c-.135-.102-.38-.102-.874-.102H12z"
     />
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}

@@ -3,11 +3,12 @@ import type { SVGProps } from "react";
 const SvgWork = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
     fill="currentColor"
     stroke="currentColor"
+    viewBox="0 0 20 20"
     width="1em"
     height="1em"
+    strokeWidth={0.2}
     {...props}
   >
     <path d="M10.965 11.238A1 1 0 0 1 11 11.5v.5a1 1 0 1 1-2 0v-.5q0-.136.035-.262a12.8 12.8 0 0 1-3.278-.69l-.257-.09A.75.75 0 1 1 6 9.043l.256.09a11.25 11.25 0 0 0 7.488 0l.256-.09a.75.75 0 1 1 .5 1.414l-.257.09a12.8 12.8 0 0 1-3.278.69Z" />

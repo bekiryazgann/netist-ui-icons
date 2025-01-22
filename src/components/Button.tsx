@@ -3,11 +3,12 @@ import type { SVGProps } from "react";
 const SvgButton = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
     fill="currentColor"
     stroke="currentColor"
+    viewBox="0 0 20 20"
     width="1em"
     height="1em"
+    strokeWidth={0.2}
     {...props}
   >
     <path d="M6.75 4A3.75 3.75 0 0 0 3 7.75v2.5A3.75 3.75 0 0 0 6.75 14h1.5a.75.75 0 0 0 0-1.5h-1.5a2.25 2.25 0 0 1-2.25-2.25v-2.5A2.25 2.25 0 0 1 6.75 5.5h6.5a2.25 2.25 0 0 1 2.25 2.25v.5a.75.75 0 0 0 1.5 0v-.5A3.75 3.75 0 0 0 13.25 4z" />

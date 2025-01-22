@@ -3,11 +3,12 @@ import type { SVGProps } from "react";
 const SvgReceiptYen = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
     fill="currentColor"
     stroke="currentColor"
+    viewBox="0 0 20 20"
     width="1em"
     height="1em"
+    strokeWidth={0.2}
     {...props}
   >
     <path d="M7.436 5.506a.75.75 0 0 1 1.058-.07L10 6.753l1.506-1.317a.75.75 0 0 1 .988 1.128L10.75 8.09v.41H12a.75.75 0 0 1 0 1.5h-1.25v.5H12a.75.75 0 0 1 0 1.5h-1.25v.5a.75.75 0 0 1-1.5 0V12H8a.75.75 0 0 1 0-1.5h1.25V10H8a.75.75 0 1 1 0-1.5h1.25v-.41L7.506 6.564a.75.75 0 0 1-.07-1.058" />

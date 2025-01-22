@@ -3,11 +3,12 @@ import type { SVGProps } from "react";
 const SvgFlower = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
     fill="currentColor"
     stroke="currentColor"
+    viewBox="0 0 20 20"
     width="1em"
     height="1em"
+    strokeWidth={0.2}
     {...props}
   >
     <path
@@ -16,7 +17,7 @@ const SvgFlower = (props: SVGProps<SVGSVGElement>) => (
     />
     <path
       fillRule="evenodd"
-      d="M8.5 15c0 .446-.083.872-.235 1.265a3.5 3.5 0 0 1-4.53-4.53A3.5 3.5 0 0 1 8.5 15M5 13a2 2 0 0 1 2 2 2 2 0 0 1-2-2M11.5 15c0 .446.083.872.235 1.265a3.5 3.5 0 0 0 4.53-4.53A3.5 3.5 0 0 0 11.5 15m3.5-2a2 2 0 0 0-2 2 2 2 0 0 0 2-2"
+      d="M8.5 15c0 .446-.083.872-.235 1.265a3.5 3.5 0 0 1-4.53-4.53A3.5 3.5 0 0 1 8.5 15M5 13a2 2 0 0 1 2 2 2 2 0 0 1-2-2m6.5 2c0 .446.083.872.235 1.265a3.5 3.5 0 0 0 4.53-4.53A3.5 3.5 0 0 0 11.5 15m3.5-2a2 2 0 0 0-2 2 2 2 0 0 0 2-2"
     />
   </svg>
 );

@@ -3,14 +3,15 @@ import type { SVGProps } from "react";
 const SvgTax = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
     fill="currentColor"
     stroke="currentColor"
+    viewBox="0 0 20 20"
     width="1em"
     height="1em"
+    strokeWidth={0.2}
     {...props}
   >
-    <path d="M9.25 10a1 1 0 1 1-2 0 1 1 0 0 1 2 0M12.75 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+    <path d="M9.25 10a1 1 0 1 1-2 0 1 1 0 0 1 2 0m3.5 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
     <path
       fillRule="evenodd"
       d="M12.692 9.308a.625.625 0 0 1 0 .884l-4.5 4.5a.625.625 0 1 1-.884-.884l4.5-4.5a.625.625 0 0 1 .884 0"

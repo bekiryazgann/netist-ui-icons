@@ -3,22 +3,21 @@ import type { SVGProps } from "react";
 const SvgStickerCircle = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
     width="1em"
     height="1em"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
+    strokeWidth={0.2}
     {...props}
   >
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M22 12.117C22 6.53 17.472 2 11.885 2 7.348 2 3.51 4.984 2.224 9.095c-.082.264-.123.395-.12.56.004.134.045.3.104.42.073.147.186.26.41.485l10.822 10.82c.225.226.338.339.486.412.12.059.285.1.419.103.165.004.296-.037.56-.12C19.017 20.49 22 16.652 22 12.117"
+      d="M22 12.117C22 6.53 17.472 2 11.885 2 7.348 2 3.51 4.984 2.224 9.095c-.082.264-.123.395-.12.56.004.134.045.3.104.42.073.147.186.26.41.485L13.44 21.38c.225.226.338.339.486.412.12.059.285.1.419.103.165.004.296-.037.56-.12C19.017 20.49 22 16.652 22 12.117"
     />
     <path
-      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}

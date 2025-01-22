@@ -3,11 +3,12 @@ import type { SVGProps } from "react";
 const SvgOrdersStatus = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
     fill="currentColor"
     stroke="currentColor"
+    viewBox="0 0 20 20"
     width="1em"
     height="1em"
+    strokeWidth={0.2}
     {...props}
   >
     <path d="m8.579 5.615-.867 1.409a1 1 0 0 1-.852.476H5A.75.75 0 1 1 5 6h1.58l1.428-2.32c.486-.79 1.693-.55 1.84.367l.59 3.694.864-1.296A1 1 0 0 1 12.134 6H15a.75.75 0 0 1 0 1.5h-2.599l-1.423 2.135c-.505.757-1.676.501-1.82-.397l-.58-3.623Z" />

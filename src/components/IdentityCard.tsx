@@ -3,14 +3,15 @@ import type { SVGProps } from "react";
 const SvgIdentityCard = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
     fill="currentColor"
     stroke="currentColor"
+    viewBox="0 0 20 20"
     width="1em"
     height="1em"
+    strokeWidth={0.2}
     {...props}
   >
-    <path d="M11.75 11a.75.75 0 0 1 .75-.75h1.25a.75.75 0 0 1 0 1.5H12.5a.75.75 0 0 1-.75-.75M12.5 8a.75.75 0 0 0 0 1.5h1.25a.75.75 0 0 0 0-1.5z" />
+    <path d="M11.75 11a.75.75 0 0 1 .75-.75h1.25a.75.75 0 0 1 0 1.5H12.5a.75.75 0 0 1-.75-.75m.75-3a.75.75 0 0 0 0 1.5h1.25a.75.75 0 0 0 0-1.5z" />
     <path
       fillRule="evenodd"
       d="M8 11.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5M8 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2"

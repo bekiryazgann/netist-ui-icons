@@ -3,11 +3,12 @@ import type { SVGProps } from "react";
 const SvgHide = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
     fill="currentColor"
     stroke="currentColor"
+    viewBox="0 0 20 20"
     width="1em"
     height="1em"
+    strokeWidth={0.2}
     {...props}
   >
     <path d="M11.977 4.751A7.6 7.6 0 0 0 10 4.5c-2.444 0-4.196 1.045-5.325 2.233a7.2 7.2 0 0 0-1.243 1.773C3.172 9.038 3 9.582 3 10s.171.962.432 1.493c.172.354.4.734.687 1.116l1.074-1.074a5.4 5.4 0 0 1-.414-.7c-.221-.453-.279-.753-.279-.835s.058-.382.279-.835a5.7 5.7 0 0 1 .983-1.398C6.652 6.83 8.026 6 10 6q.36 0 .693.036z" />

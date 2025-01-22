@@ -3,14 +3,15 @@ import type { SVGProps } from "react";
 const SvgChartHistogramFull = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
     fill="currentColor"
     stroke="currentColor"
+    viewBox="0 0 20 20"
     width="1em"
     height="1em"
+    strokeWidth={0.2}
     {...props}
   >
-    <path d="M4.75 4.25a.75.75 0 0 0-1.5 0v11.5a.75.75 0 0 0 1.5 0zM12.75 4.25a.75.75 0 0 0-1.5 0v11.5a.75.75 0 0 0 1.5 0zM8 3.5a.75.75 0 0 1 .75.75v11.5a.75.75 0 0 1-1.5 0V4.25A.75.75 0 0 1 8 3.5M16.75 4.25a.75.75 0 0 0-1.5 0v11.5a.75.75 0 0 0 1.5 0z" />
+    <path d="M4.75 4.25a.75.75 0 0 0-1.5 0v11.5a.75.75 0 0 0 1.5 0zm8 0a.75.75 0 0 0-1.5 0v11.5a.75.75 0 0 0 1.5 0zM8 3.5a.75.75 0 0 1 .75.75v11.5a.75.75 0 0 1-1.5 0V4.25A.75.75 0 0 1 8 3.5m8.75.75a.75.75 0 0 0-1.5 0v11.5a.75.75 0 0 0 1.5 0z" />
   </svg>
 );
 export default SvgChartHistogramFull;
